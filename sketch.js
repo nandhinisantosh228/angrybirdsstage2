@@ -47,7 +47,7 @@ function setup(){
         length:10
     }
 
-    var chain=constraint.create(options);
+    var chain=Constraint.create(options);
     World.add(world,chain);
 
 }
